@@ -1,0 +1,1 @@
+yt-dlp -f ba[ext!=webm] -o "%(title)s - %(channel)s.%(ext)s" --yes-playlist --embed-metadata --parse-metadata "%(&J-Pop)s:%(meta_genre)s" --parse-metadata "%(playlist)s:%(meta_album)s" -P "./topjapan" "https://www.youtube.com/watch?v=QjrkrVmC-8M&list=PL4fGSI1pDJn4-UIb6RKHdxam-oAUULIGB&index=3"
